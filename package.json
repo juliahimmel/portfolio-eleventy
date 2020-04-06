@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-eleventy",
+  "version": "1.0.0",
+  "description": "My design portfolio, in Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliahimmel/portfolio-eleventy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliahimmel/portfolio-eleventy/issues"
+  },
+  "homepage": "https://github.com/juliahimmel/portfolio-eleventy#readme"
+}
