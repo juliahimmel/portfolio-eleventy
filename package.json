@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/juliahimmel/portfolio-eleventy/issues"
   },
-  "homepage": "https://github.com/juliahimmel/portfolio-eleventy#readme"
+  "homepage": "https://github.com/juliahimmel/portfolio-eleventy#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  }
 }
