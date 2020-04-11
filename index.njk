@@ -3,17 +3,14 @@ layout: base-layout.njk
 pagination:
   data: collections.project
   size: 10
-  reverse: true
+  reverse: false
   alias: projects
 ---
 {% for project in projects %}
   <article>
-    <h1>
-      <a href="{{ project.url | url }}">{{ project.data.title }}</a>
-    </h1>
-
-    {% excerpt project %}
-
-    <a href="{{ project.url | url }}">Read more</a>
+    <a href="{{ project.url | url }}">
+      <h3>{{ project.data.category }}</h3>
+      <h1>{{ project.data.title }}<span> {{ project.data.description }}<span></h1>
+    </a>
   </article>
 {% endfor %}
