@@ -1,8 +1,10 @@
 ---
-layout: post-layout.njk
+layout: project-layout.njk
+category: Case Study
 title: Credibility Indicators
-date: 2020-04-09
-tags: ['project']
+description: A tool to boost news literacy as a way to increase trust in news
+date: 2020-04-01
+tags: ['project', 'case study']
 ---
 # Credibility Indicators
 
