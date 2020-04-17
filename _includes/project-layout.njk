@@ -1,8 +1,10 @@
 ---
 layout: base-layout.njk
 ---
-<article>
-  <h3>{{ category }}</h3>
-  <h1>{{ title }}<span> {{ description }}</span></h1>
+<article class="project">
+  <div class="project-header">
+    <h3 class="project-header-eyebrow">{{ category }}</h3>
+    <h1 class="project-header-title">{{ title }}<span class="project-header-description"> {{ description }}</span></h1>
+  </div>
   {{ content | safe }}
 </article>

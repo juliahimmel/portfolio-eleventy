@@ -6,11 +6,14 @@ pagination:
   reverse: false
   alias: projects
 ---
+<section class="intro">
+  <h1>Here is an intro <a href="#">a link</a></h1>
+</section>
 {% for project in projects %}
-  <article>
+  <article class="card">
     <a href="{{ project.url | url }}">
-      <h3>{{ project.data.category }}</h3>
-      <h1>{{ project.data.title }}<span> {{ project.data.description }}<span></h1>
+      <h3 class="card-eyebrow">{{ project.data.category }}</h3>
+      <h1 class="card-title">{{ project.data.title }}<span class="card-description"> {{ project.data.description }}<span></h1>
     </a>
   </article>
 {% endfor %}

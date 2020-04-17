@@ -8,5 +8,8 @@ tags: ['project', 'case study']
 ---
 # Credibility Indicators
 
-## Legal Stuff
-We do not accept any liability for any loss or damage.
+We do not accept any **liability** for any *lossaagy* or damage.
+
+<img src="https://s3.amazonaws.com/julia-himmel-personal-site/Projects/CareerFoundry+Dashboard/cf-dash-sketch-v1.JPG">
+
+<img class="full-width" src="https://s3.amazonaws.com/julia-himmel-personal-site/Projects/CareerFoundry+Dashboard/cf-dash-sketch-v1.JPG">

@@ -1,0 +1,206 @@
+
+/* VARIABLES */
+
+:root {
+  --accent-color: #D7B85A;
+  --primary-text-color: #000;
+  --secondary-text-color: #949494;
+}
+
+/* BASIC STYLES  */
+
+body {
+  box-sizing: border-box;
+}
+
+/* GRID */
+
+.container {
+  width: 100%;
+  max-width: 832px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 13px;
+}
+
+/* HOMEPAGE */
+
+nav {
+  width: 100%;
+  max-width: 832px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em 0 2.4em 0;
+}
+
+nav ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  -webkit-box-flex: 1;
+  flex: 1;
+  margin-left: 36px;
+}
+
+nav>a {
+  font-family: titling-gothic-fb, sans-serif;
+  text-decoration: none;
+  font-size: 0.87em;
+  letter-spacing: 0.08em;
+  color: var(--primary-text-color);
+}
+
+nav ul li a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.87em;
+}
+
+.card,
+.intro {
+  grid-column: -1/1;
+}
+
+.intro {
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--primary-text-color);
+}
+
+.intro h1 {
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 300;
+  font-size: 2.69em; //43px;
+  line-height: 1.12;
+  color: var(--primary-text-color);
+}
+
+.intro h1 a {
+  color: var(--primary-text-color);
+  text-decoration-color: var(--accent-color);
+}
+
+/* CARDS */
+
+.card {
+  padding: 1.2em 0 1.2em 0;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card-eyebrow {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 1.12em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 0.4em;
+}
+
+.card-title {
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: var(--primary-text-color);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.card-description {
+  color: var(--secondary-text-color);
+}
+
+/* PROJECT PAGE  */
+
+.project {
+  grid-column: -1/1;
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 13px;
+}
+
+.project-header {
+  grid-column: -1/1;
+  padding: 1.2em 0 1.2em 0;
+  border-bottom: 1px solid var(--primary-text-color);
+}
+
+.project-header-eyebrow {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 1.12em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 0.4em;
+}
+
+.project-header-title {
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  color: var(--primary-text-color);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.project-header-description {
+  color: var(--secondary-text-color);
+}
+
+.project>p {
+  grid-column: col-start 3 / span 8;
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
+  font-size: 1.12em;
+  line-height: 1.5;
+  margin-block-start: 0;
+}
+
+.project>p strong {
+  font-weight: 700;
+}
+
+.project>p em {
+  font-style: italic;
+}
+
+
+.project>h1 {
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 500;
+  font-size: 1.12em;
+  color: var(--primary-text-color);
+  grid-column: col-start 3 / span 8;
+}
+
+.project>img {
+  width: 100%;
+  grid-column: col-start 3 / span 8;
+  /* grid-column: col-start 2 / span 9; */
+}
+
+.project>img.full-width {
+  width: 100%;
+  grid-column: -1/1;
+}
