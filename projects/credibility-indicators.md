@@ -82,6 +82,8 @@ I dug into our interviews with journalists in order to better understand the mos
 
 The Credibility Indicators we released weren’t right for every newsroom. Some newsrooms that Civil worked with focused on cultural criticism, personal essays, humor, or opinion pieces, and this news literacy tool didn’t apply to their work.
 
+However, newsrooms that focus on hard news have found the Credibility Indicators useful and have consistently received positive feedback on them from readers.
+
 <img class="small" src="https://eleventy-portfolio.s3.amazonaws.com/CIs_case_study/Doug_Klain_tweet_on_CIs_border.png">
 
-However, newsrooms that focus on hard news have found the Credibility Indicators useful and have consistently received positive feedback on them from readers.
+I would have loved an opportunity to update the Credibility Indicators by improving the icons. I would also have liked to be able to extend their use to newsrooms that are not using the Civil WordPress theme. It would also be great to do some followup research to see how we could improve the feature.
