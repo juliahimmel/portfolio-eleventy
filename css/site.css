@@ -17,7 +17,8 @@ body {
 
 .container {
   width: 100%;
-  max-width: 832px;
+  /* max-width: 832px; */
+  max-width: 1080px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
@@ -28,7 +29,8 @@ body {
 
 nav {
   width: 100%;
-  max-width: 832px;
+  /* max-width: 832px; */
+  max-width: 1080px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -168,13 +170,17 @@ nav ul li a {
   color: var(--secondary-text-color);
 }
 
-.project>p {
+.project>p, .project>h1, .project>h2, .project>ul, .project>ol, .project>blockquote, .project>img {
   grid-column: col-start 3 / span 8;
+}
+
+.project>p {
   font-family: freight-text-pro, serif;
   font-weight: 400;
   font-size: 1.12em;
   line-height: 1.5;
   margin-block-start: 0;
+  margin-block-end: 0.12em;
 }
 
 .project>p strong {
@@ -185,22 +191,65 @@ nav ul li a {
   font-style: italic;
 }
 
-
 .project>h1 {
-  font-family: titling-gothic-fb, sans-serif;
-  font-weight: 500;
-  font-size: 1.12em;
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
   color: var(--primary-text-color);
-  grid-column: col-start 3 / span 8;
+  margin-block-end: 0.12em;
+}
+
+.project>h2 {
+  font-family: freight-sans-pro, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  font-size: 1em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.project>ul li, .project>ol li {
+  font-size: 1.12em;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+.project blockquote {
+  padding: 1.5em;
+  background-color: var(--accent-color);
+  text-indent: -0.5em;
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+}
+
+.project blockquote strong {
+  font-style: normal;
+  font-family: freight-sans-pro, sans-serif;
+  font-weight: 400;
 }
 
 .project>img {
   width: 100%;
-  grid-column: col-start 3 / span 8;
-  /* grid-column: col-start 2 / span 9; */
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .project>img.full-width {
-  width: 100%;
   grid-column: -1/1;
+}
+.project>img.small {
+  grid-column: col-start 4 / span 6;
+
+}
+
+.project>img.border {
+  border: 1px solid #DEDEDE;
 }
