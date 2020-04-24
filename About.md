@@ -6,7 +6,7 @@ date: 2020-04-08
 
 <img class="small-left" src="https://eleventy-portfolio.s3.amazonaws.com/julia_profile_picture.jpg">
 
-I’m a product designer and art director living in Brooklyn, NY. I love all things media and tech.
+I’m a product designer and creative director living in Brooklyn, NY. I love all things media and tech.
 
 My love of print magazines led me to start teaching myself graphic design back in 2013. Since then, my experience has included web development, qualitative user experience research and usability testing, product design, and branding. Currently, I’m developing my skills in data visualization.
 
