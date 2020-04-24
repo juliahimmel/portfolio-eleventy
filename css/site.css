@@ -264,3 +264,27 @@ footer ul li a {
 .project>img.border {
   border: 1px solid #DEDEDE;
 }
+
+@media only screen and (max-width: 769px) {
+  .intro h1 {
+    font-size: 1.5em;
+  }
+
+  nav>a {
+    padding-top: 5px;
+    font-size: 0.5em;
+    color: red;
+  }
+
+  nav ul li a {
+    font-size: 0.6em;
+    color: red;
+  }
+
+  nav ul {
+    padding-left: 10px;
+  }
+
+
+
+}
