@@ -13,12 +13,21 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  transition: opacity 0.5s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 /* GRID */
 
 .container {
   width: 100%;
   /* max-width: 832px; */
-  max-width: 1080px;
+  max-width: 992px;
+  /* max-width: 1080px; */
   margin: auto;
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
@@ -29,8 +38,7 @@ body {
 
 nav, footer {
   width: 100%;
-  /* max-width: 832px; */
-  max-width: 1080px;
+  max-width: 992px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -59,7 +67,6 @@ nav>a {
   letter-spacing: 0.08em;
   color: var(--primary-text-color);
 }
-
 nav ul li a {
   color: var(--accent-color);
   text-decoration: none;
@@ -102,7 +109,22 @@ footer ul li a {
 
 .intro h1 a {
   color: var(--primary-text-color);
-  text-decoration-color: var(--accent-color);
+  text-decoration: none;
+  /* text-decoration-color: var(--accent-color); */
+}
+
+.intro h1 a {
+  background-image: linear-gradient(var(--accent-color), var(--accent-color));
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 4px;
+  transition: background-size .2s ease-in .2s;
+}
+
+.intro h1 a:hover {
+  opacity: 100%;
+  background-size: 100% 100%;
+  transition: background-size .2s ease-in .2s;
 }
 
 /* CARDS */
@@ -113,6 +135,7 @@ footer ul li a {
 
 .card a {
   text-decoration: none;
+  display: block;
 }
 
 .card-eyebrow {
@@ -256,16 +279,16 @@ footer ul li a {
 .project>img.full-width {
   grid-column: -1/1;
 }
+
 .project>img.small {
   grid-column: col-start 4 / span 6;
-
 }
 
 .project>img.border {
   border: 1px solid #DEDEDE;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 575.98px) {
   .intro h1 {
     font-size: 1.5em;
   }
@@ -273,18 +296,42 @@ footer ul li a {
   nav>a {
     padding-top: 5px;
     font-size: 0.5em;
-    color: red;
   }
 
   nav ul li a {
     font-size: 0.6em;
-    color: red;
   }
 
   nav ul {
     padding-left: 10px;
   }
 
+  nav ul li, footer ul li {
+    margin-left: 20px;
+  }
 
+  .intro h1 a {
+    background-size: 100% 2px;
+  }
+
+  .card-eyebrow {
+    font-size: 0.85em;
+  }
+
+  .card-title {
+    font-size: 1.12em;
+  }
+
+  .project-header-title {
+    font-size: 1.5em;
+  }
+
+  .project>p, .project>h1, .project>h2, .project>ul, .project>ol, .project>blockquote, .project>img {
+    grid-column: -1/1;
+  }
+
+  .project>img.small {
+    grid-column: -1/1;
+  }
 
 }
