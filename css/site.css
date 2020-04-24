@@ -297,6 +297,10 @@ footer ul li a {
     font-size: 1.5em;
   }
 
+  nav {
+    padding-bottom: 1em;
+  }
+
   nav>a {
     padding-top: 5px;
     font-size: 0.5em;
