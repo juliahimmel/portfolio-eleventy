@@ -8,7 +8,7 @@ date: 2020-04-08
 
 I’m a product designer and creative director living in Brooklyn, NY. I love all things media and tech.
 
-My love of print magazines led me to start teaching myself graphic design back in 2013. Since then, my experience has included web development, qualitative user experience research and usability testing, product design, and branding. Currently, I’m developing my skills in data visualization.
+My love of print magazines led me to start teaching myself graphic design back in 2013. Curious about the possibilities presented by the web, I attended a web development bootcamp. Since then, my experience has included web development, qualitative user experience research and usability testing, product design, and branding. Currently, I’m developing my skills in data visualization.
 
 I love to jump in feet-first and test and iterate quickly. I strive to make decisions informed by qualitative research and data. A common thread in all my work is a strong typographic and visual sensibility.
 
