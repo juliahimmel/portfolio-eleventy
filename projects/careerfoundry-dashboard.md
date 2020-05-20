@@ -3,7 +3,7 @@ layout: project-layout.njk
 category: Case Study
 title:  CareerFoundry Student Dashboard
 description: A dashboard to guide and motivate students through their course
-date: 2020-04-07
+date: 2020-04-08
 tags: ['project', 'case study']
 ---
 

@@ -3,7 +3,7 @@ layout: project-layout.njk
 category: Illustration
 title:  Cocktail Recipe Postcards
 description: I designed these illustrated postcards as a personal project. I created the cocktail illustrations in watercolor
-date: 2020-04-09
+date: 2020-04-10
 tags: ['project', 'illustration']
 ---
 
